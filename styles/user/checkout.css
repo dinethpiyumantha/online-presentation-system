@@ -1,0 +1,153 @@
+.checkout{
+    padding: 20px 20px 20px 100px;
+}
+
+.payment{
+    display: block;
+    padding: 20px 80px 20px 20px;
+}
+
+.item-list{
+    padding-top: 20px;
+}
+
+.total-price-box{
+    padding: 20px 5px;
+    width: 390px;
+    height: 100px;
+    background: #232323;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.payment-methods{
+    margin-top: 10px;
+    padding: 20px 30px;
+    width: 340px;
+    height: 370px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.selected-item{
+    margin: 0;
+    padding: 10px;
+    width: 680px;
+    height: 200px;
+    background: #fff;
+    border-radius: 0;
+    border-bottom: 5px solid #232323;
+}
+
+.total-price-title{
+    font-size: 22px;
+    line-height: 0px;
+    font-family: 'Open Sans Bold';
+    color: #c23616;
+}
+
+.total-amount{
+    font-size: 50px;
+    line-height: 0px;
+    font-family: 'Open Sans Bold';
+    color: #fff;
+
+}
+
+.checkout-text-labels{
+    font-size: 15px;
+    line-height: 0;
+}
+
+.checkout-textbox{
+    margin: 0px;
+    padding: 3px 10px;
+    width: 300px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #232323;
+    color: #232323;
+    font-family: 'Open Sans';
+}
+
+.small-textbox{
+    width: 150px;
+}
+
+.verysmall-textbox{
+    width: 25px;
+}
+
+.checkout-btn{
+    margin: 0px 0px 0px 40px;
+    width: 100px;
+    height: 32px;
+    border: 0px solid transparent;
+    background: #c23616;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-family: 'Open Sans';
+}
+
+.checkout-btn:hover{
+    background: #232323;
+}
+
+.item-list-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+#thumbSmall{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.selected-item-title{
+    padding: 5px 5px 5px 10px;
+    font-size: 22px;
+    font-family: 'Open Sans Bold';
+}
+
+.selected-item-content{
+    padding: 5px 5px 5px 10px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    text-align: justify;
+}
+
+#itemDelete{
+    margin: 10px 0px 0px 0px;
+    width: 100px;
+    height: 32px;
+    border: 0px solid transparent;
+    background: #c23616;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-family: 'Open Sans';
+}
+
+#itemDelete:hover{
+    background: #232323;
+}
+
+#attentionMes{
+    margin-top: 10px;
+    font-size: 13px;
+    color: red;
+}
+
+#cardType{
+    height: 30px;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.mini{
+    width: 248px;
+}

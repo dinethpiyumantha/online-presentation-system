@@ -1,0 +1,127 @@
+/* Anton Font */
+@font-face{
+	font-family: "anton";
+	src:url("../fonts/Anton/Anton.ttf");
+}
+
+/* Open Sans Fonts */
+@font-face{
+	font-family: "Open Sans";
+	src:url("../fonts/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Bold";
+	src:url("../fonts/Open_Sans/OpenSans-Bold.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Semi Bold";
+	src:url("../fonts/Open_Sans/OpenSans-SemiBold.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Semi Bold Italic";
+	src:url("../fonts/Open_Sans/OpenSans-SemiBoldItalic.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Bold Italic";
+	src:url("../fonts/Open_Sans/OpenSans-BoldItalic.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Extra Bold";
+	src:url("../fonts/Open_Sans/OpenSans-ExtraBold.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Extra Bold Italic";
+	src:url("../fonts/Open_Sans/OpenSans-ExtraBoldItalic.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Italic";
+	src:url("../fonts/Open_Sans/OpenSans-Italic.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Light";
+	src:url("../fonts/Open_Sans/OpenSans-Light.ttf");
+}
+
+@font-face{
+	font-family: "Open Sans Light Italic";
+	src:url("../fonts/Open_Sans/OpenSans-LightItalic.ttf");
+}
+
+/* Oswald Font */
+@font-face{
+	font-family: "Oswald";
+	src:url("../fonts/Oswald/Oswald-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Oswald Light";
+	src:url("../fonts/Oswald/Oswald-Light.ttf");
+}
+
+@font-face{
+	font-family: "Oswald Extra Light";
+	src:url("../fonts/Oswald/Oswald-ExtraLight.ttf");
+}
+
+@font-face{
+	font-family: "Oswald Medium";
+	src:url("../fonts/Oswald/Oswald-Medium.ttf");
+}
+
+@font-face{
+	font-family: "Oswald Bold";
+	src:url("../fonts/Oswald/Oswald-Bold.ttf");
+}
+
+@font-face{
+	font-family: "Oswald Semi Bold";
+	src:url("../fonts/Oswald/Oswald-SemiBold.ttf");
+}
+
+/* Ubuntu */
+@font-face{
+	font-family: "Ubuntu";
+	src:url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face{
+	font-family: "Ubuntu Bold";
+	src:url("../fonts/Ubuntu/Ubuntu-Bold.ttf");
+}
+
+@font-face{
+	font-family: "Ubuntu Bold Italic";
+	src:url("../fonts/Ubuntu/Ubuntu-BoldItalic.ttf");
+}
+
+@font-face{
+	font-family: "Ubuntu Italic";
+	src:url("../fonts/Ubuntu/Ubuntu-Italic.ttf");
+}
+
+@font-face{
+	font-family: "Ubuntu Light";
+	src:url("../fonts/Ubuntu/Ubuntu-Light.ttf");
+}
+
+@font-face{
+	font-family: "Ubuntu Light Italic";
+	src:url("../fonts/Ubuntu/Ubuntu-LightItalic.ttf");
+}
+@font-face{
+	font-family: "Ubuntu Medium";
+	src:url("../fonts/Ubuntu/Ubuntu-Medium.ttf");
+}
+
+@font-face{
+	font-family: "Ubuntu Medium Italic";
+	src:url("../fonts/Ubuntu/Ubuntu-MediumItalic.ttf");
+}

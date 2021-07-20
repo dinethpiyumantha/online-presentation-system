@@ -1,0 +1,109 @@
+body{
+    margin: 0em;
+    padding: 0em;
+    display: block;
+}
+
+.title-name{grid-area: title;}
+.login{grid-area: login;}
+.navigation-menu{grid-area: navigation;}
+.search{grid-area: search;}
+.footer-description{grid-area: footerD;}
+.quick-links{grid-area: footerQ;}
+.official-links{grid-area: official;}
+
+header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+            "title   login";
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+            "navigation   search";
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas:
+            "footerD    footerQ official";
+}
+
+.copyright{
+    display: grid;
+    grid-template-areas: 4fr;
+}
+
+/* Home Page */
+.slideshow{grid-area: slider;}
+.about-us{grid-area: aboutus;}
+.contact-us{grid-area: contactus;}
+.location-map{grid-area: locationmap;}
+.faq{grid-area: faq;}
+
+.home{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:
+            "slider     slider" 
+            "aboutus    aboutus"
+            "contactus  locationmap"
+            "faq        faq";
+}
+
+/* Checkout Page */
+.item-list{grid-area: itemlist;}
+.payment{grid-area: payment;}
+
+.checkout{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+            "itemlist   payment";
+}
+
+.selected-item-thumbnail{grid-area: selectedItemImg;}
+.selected-item-title{grid-area: selectedItemTitle;}
+.selected-item-content{grid-area: selectedItemCont;}
+
+.selected-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: 
+            "selectedItemImg selectedItemTitle"
+            "selectedItemImg selectedItemCont";
+
+}
+
+
+/* Category Page */
+
+.category-cont{grid-area: catTemp;}
+.category-nav{grid-area: catNav;}
+
+.category{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+            "catTemp catNav"
+            "catTemp catNav";
+}
+
+
+/* Responsive Media Quaries */
+@media (max-width: 700px){
+    .home{
+        grid-template-columns: 2fr;
+        grid-template-areas:
+                "slider" 
+                "aboutus"
+                "contactus"
+                "locationmap"
+                "faq";
+    }
+}
